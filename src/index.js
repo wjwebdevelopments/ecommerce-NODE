@@ -1,7 +1,7 @@
 import express from 'express';
-const app = express();
+import server from './www/server';
 
-
+const app = server(express());
 
 
 app.listen(
